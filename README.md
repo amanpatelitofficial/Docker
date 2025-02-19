@@ -29,3 +29,41 @@ docker exec -it <container_id> sh  # Access a running container (if Alpine-based
 docker exec -it <container_id> bash # Access a running container (if Ubuntu-based)
 
 ````
+
+🔹 Image Management
+
+````bash
+docker images                      # List available Docker images
+docker pull ubuntu                 # Download an image from Docker Hub
+docker build -t myapp .            # Build a Docker image from a Dockerfile
+docker rmi <image_id>              # Remove an image
+docker tag myapp myrepo/myapp:v1   # Tag an image for pushing
+docker push myrepo/myapp:v1        # Push an image to Docker Hub
+
+````
+
+🔹 Network & Volume Management
+
+````bash
+docker network ls                  # List all networks
+docker network create mynetwork    # Create a new network
+docker network inspect mynetwork   # Inspect a network
+docker network connect mynetwork <container_id>  # Connect a container to a network
+docker network disconnect mynetwork <container_id>  # Disconnect a container
+
+docker volume ls                    # List all volumes
+docker volume create myvolume        # Create a volume
+docker volume inspect myvolume       # Inspect a volume
+docker volume rm myvolume            # Remove a volume
+
+````
+
+🔹 Container Cleanup
+
+````bash
+docker system prune -f               # Remove unused containers, networks, and images
+docker container prune -f            # Remove all stopped containers
+docker image prune -f                # Remove unused images
+docker volume prune -f               # Remove unused volumes
+
+````
