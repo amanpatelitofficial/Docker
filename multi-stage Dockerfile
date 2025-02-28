@@ -13,9 +13,6 @@ RUN npm install --only=production
 # Copy the rest of the application code
 COPY . .
 
-# Build the application (if needed)
-RUN npm run build  # Uncomment if your app requires a build step
-
 # ---- Production Stage ----
 FROM node:20-alpine AS production
 
