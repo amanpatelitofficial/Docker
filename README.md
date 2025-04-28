@@ -75,6 +75,7 @@ docker volume prune -f               # Remove unused volumes
 
 # Docker CMD & EntryPoint
 
-![image](https://github.com/user-attachments/assets/30253c00-f1c4-4755-8a75-8cc26ea4d76e)
+![image](https://github.com/user-attachments/assets/aaf94b57-a480-4ffa-a0fb-8187d16849c5)
+
 
 
