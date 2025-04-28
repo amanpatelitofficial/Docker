@@ -53,6 +53,7 @@ docker push myrepo/myapp:v1        # Push an image to Docker Hub
 docker network ls                  # List all networks
 docker network create mynetwork    # Create a new network
 docker network inspect mynetwork   # Inspect a network
+docker network rm mynetwork
 docker network connect mynetwork <container_id>  # Connect a container to a network
 docker network disconnect mynetwork <container_id>  # Disconnect a container
 
