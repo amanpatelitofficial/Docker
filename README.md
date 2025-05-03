@@ -73,12 +73,12 @@ docker image prune -f                # Remove unused images
 docker volume prune -f               # Remove unused volumes
 
 ````
- # Docker Volume
+# 🔹 Docker Volume
 
 ![image](https://github.com/user-attachments/assets/258bee5e-fb2b-436e-b9fe-93effd8fba82)
 
 
-# Docker CMD & EntryPoint
+# 🔹 Docker CMD & EntryPoint
 
 ![image](https://github.com/user-attachments/assets/aaf94b57-a480-4ffa-a0fb-8187d16849c5)
 
