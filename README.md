@@ -91,7 +91,6 @@ ls
 bin  boot  dev	docker-entrypoint.d  docker-entrypoint.sh  etc	home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 `````
 
-````
 
 
  # 🔹 Container Management
