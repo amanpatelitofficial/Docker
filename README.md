@@ -6,6 +6,9 @@
 
 ![image](https://github.com/user-attachments/assets/4de45d9f-c58e-43d7-8fc1-677c2ad978d1)
 
+# 🔹 CRI - Container RunTime Interface
+
+![image](https://github.com/user-attachments/assets/8631f7e7-9497-4671-8d89-b976395340b9)
 
 
 
