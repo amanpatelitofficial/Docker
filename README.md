@@ -85,7 +85,7 @@ Go inside the pid dir of runc, you will see the linux file system hierarchy
 cd 3405
 `````
 `````
-cd ls
+ls
 `````
 `````
 bin  boot  dev	docker-entrypoint.d  docker-entrypoint.sh  etc	home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
