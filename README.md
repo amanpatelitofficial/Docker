@@ -4,7 +4,8 @@
 
 # 🔹 Docker Architecture | How Docker run our Container
 
-![image](https://github.com/user-attachments/assets/3aca8155-87ac-4755-bb5a-7f77b91816e3)
+![image](https://github.com/user-attachments/assets/4de45d9f-c58e-43d7-8fc1-677c2ad978d1)
+
 
 
 
