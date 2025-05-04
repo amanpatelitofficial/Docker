@@ -1,8 +1,8 @@
-# Docker 
+# 🔹 Docker 
 
 ![image](https://github.com/user-attachments/assets/045e822a-0eab-4db6-87b8-6180ed7954e6)
 
-#  Docker Architecture | How Docker run our Container
+# 🔹 Docker Architecture | How Docker run our Container
 
 ![image](https://github.com/user-attachments/assets/3aca8155-87ac-4755-bb5a-7f77b91816e3)
 
