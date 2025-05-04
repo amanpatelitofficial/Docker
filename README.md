@@ -63,7 +63,7 @@ x — show processes not attached to a terminal (like daemons).
 docker run -itd nginx
 `````
 
- Now see the that runc is responsible for creating container by creating a process.
+ Now see that runc is responsible for creating container by creating a process.
 
 `````
  pa  -aux | grep container_ip
