@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/02928399-ab18-48d4-87b7-1cb0359b42db)
 
 
-#  🔹Docker Permission
+# 🔹 Docker Permission
 
 ````
 sudo usermod -aG docker $USER
@@ -26,7 +26,19 @@ sudo usermod -aG docker $USER
 newgrp docker
 ````
 
+# 🔹 Command to see the process of docker
 
+````
+ps -aux
+````
+
+ps — process status command.
+
+a — show processes for all users.
+
+u — show the process's user/owner.
+
+x — show processes not attached to a terminal (like daemons).
 
 
 
