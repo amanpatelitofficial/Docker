@@ -73,6 +73,26 @@ Output
 ![image](https://github.com/user-attachments/assets/6baea886-ce1d-4f0d-a4c9-7634792add03)
 
 
+After that go inside the proc dir 
+
+`````
+cd /proc
+````
+Go inside the pid dir of runc, you will see the linux file system hierarchy
+
+````
+cd 3405
+````
+````
+cd ls
+````
+````
+bin  boot  dev	docker-entrypoint.d  docker-entrypoint.sh  etc	home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+````
+
+````
+
+
  # 🔹 Container Management
 
 ````bash
