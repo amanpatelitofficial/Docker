@@ -18,6 +18,16 @@
 ![image](https://github.com/user-attachments/assets/02928399-ab18-48d4-87b7-1cb0359b42db)
 
 
+#  🔹Docker Permission
+
+````
+sudo usermod -aG docker $USER
+````
+````
+newgrp docker
+````
+
+
 
 
 
