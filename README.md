@@ -4,8 +4,7 @@
 
 # 🔹 Docker Architecture | How Docker run our Container
 
-![image](https://github.com/user-attachments/assets/b4ee3d3f-aaac-42d1-a256-8ef5317714bc)
-
+![image](https://github.com/user-attachments/assets/5160a820-8456-4b6b-8c72-bba488f2d8e8)
 
 
 # 🔹 CRI - Container RunTime Interface
