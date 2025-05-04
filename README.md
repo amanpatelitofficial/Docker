@@ -44,7 +44,6 @@ u — show the process's user/owner.
 x — show processes not attached to a terminal (like daemons).
 
 
-
 # 🔹 Basic Docker Commands
 
 Check Docker version
@@ -58,6 +57,17 @@ Get system-wide information about Docker
 ````bash
 docker info  
 ````
+
+# 🔹 When we run a docker then runc create a process, How to verify it ?
+
+`````
+docker run -itd nginx
+`````
+ Now see the that runc is responsible for creating container by creating a process.
+
+ `````
+pa  -aux | grep container_ip
+ ````
 
 🔹 Container Management
 
