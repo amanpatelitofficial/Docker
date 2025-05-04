@@ -68,6 +68,10 @@ docker run -itd nginx
 `````
  pa  -aux | grep container_ip
 `````
+Output
+
+![image](https://github.com/user-attachments/assets/6baea886-ce1d-4f0d-a4c9-7634792add03)
+
 
  # 🔹 Container Management
 
