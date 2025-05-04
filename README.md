@@ -1,5 +1,5 @@
 
-# 🔹 When to install docker then by deafult containerd is installed
+# 🔹 When we install docker then by default containerd is installed
 
 # 🔹 Docker 
 
