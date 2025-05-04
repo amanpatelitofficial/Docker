@@ -29,7 +29,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 ````
 
-# 🔹 Command to see the process of docker
+# 🔹 Command to see the process of Docker & Containerd
 
 ````
 ps -aux
