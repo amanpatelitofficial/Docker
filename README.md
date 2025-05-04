@@ -9,7 +9,8 @@
 
 # 🔹 CRI - Container RunTime Interface
 
-![image](https://github.com/user-attachments/assets/8631f7e7-9497-4671-8d89-b976395340b9)
+![image](https://github.com/user-attachments/assets/1d17814e-17f7-4191-8e32-10959b465faa)
+
 
 # 🔹 OCI - Open Container Initiative
 
