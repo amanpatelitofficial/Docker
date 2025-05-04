@@ -19,7 +19,19 @@
 
 ![image](https://github.com/user-attachments/assets/02928399-ab18-48d4-87b7-1cb0359b42db)
 
+# 🔹 Basic Docker Commands
 
+Check Docker version
+
+````bash
+docker --version 
+````
+
+Get system-wide information about Docker
+
+````bash
+docker info  
+````
 # 🔹 Docker Permission
 
 ````
@@ -44,32 +56,20 @@ u — show the process's user/owner.
 x — show processes not attached to a terminal (like daemons).
 
 
-# 🔹 Basic Docker Commands
-
-Check Docker version
-
-````bash
-docker --version 
-````
-
-Get system-wide information about Docker
-
-````bash
-docker info  
-````
 
 # 🔹 When we run a docker then runc create a process, How to verify it ?
 
 `````
 docker run -itd nginx
 `````
+
  Now see the that runc is responsible for creating container by creating a process.
 
- `````
-pa  -aux | grep container_ip
- ````
+`````
+ pa  -aux | grep container_ip
+`````
 
-🔹 Container Management
+ # 🔹 Container Management
 
 ````bash
 
