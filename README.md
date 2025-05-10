@@ -158,5 +158,20 @@ docker volume prune -f               # Remove unused volumes
 
 ![image](https://github.com/user-attachments/assets/aaf94b57-a480-4ffa-a0fb-8187d16849c5)
 
+# Docker Advance Commands
+
+a) How to build the Dockerfile if the Dockerfile is in different location
+
+`````bash
+docker build -t myapp:2.0 -f docker/Dockerfile.prod
+
+`````
+
+b) If your dockerfile is build 1st time but in 2nd time it just completed the build process from cached but you want to build it fresh then
+
+`````bash
+docker build --no-cache -t myapp:2.1 .
+`````
+
 
 
