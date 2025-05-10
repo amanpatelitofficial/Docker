@@ -175,7 +175,7 @@ docker build --no-cache -t myapp:2.1 .
 c) How to set resources like memory & cpu in docker during runing the container.
 
 ````bash
-docker run -it --rm --memory="512m" --cpus="1.5" myapp:prod
+docker run -it --memory="512m" --cpus="1.5" myapp:prod
 ````
 
 d) Ensure the app doesn’t require root access to function.
