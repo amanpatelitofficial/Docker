@@ -163,7 +163,7 @@ docker volume prune -f               # Remove unused volumes
 a) How to build the Dockerfile if the Dockerfile is in different location
 
 `````bash
-docker build -t myapp:2.0 -f docker/Dockerfile.prod
+docker build -t myapp:2.0 -f docker/Dockerfile.prod .
 
 `````
 
