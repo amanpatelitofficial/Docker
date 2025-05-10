@@ -178,5 +178,11 @@ c) How to set resources like memory & cpu in docker during runing the container.
 docker run -it --rm --memory="512m" --cpus="1.5" myapp:prod
 ````
 
+d) Ensure the app doesn’t require root access to function.
+````bash
+ docker run -u 1001:1001 -it myapp bash
+````
+
+
 
 
