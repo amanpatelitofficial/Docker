@@ -172,6 +172,11 @@ b) If your dockerfile is build 1st time but in 2nd time it just completed the bu
 `````bash
 docker build --no-cache -t myapp:2.1 .
 `````
+c) How to set resources like memory & cpu in docker during runing the container.
+
+````bash
+docker run -it --rm --memory="512m" --cpus="1.5" myapp:prod
+````
 
 
 
