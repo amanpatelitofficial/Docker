@@ -182,6 +182,11 @@ d) By default docker run with root user, Ensure the app doesn’t require root a
 ````bash
  docker run -u 1001:1001 -it myapp bash
 ````
+e) Lock down file system to prevent file tampering during runtime.
+
+````bash
+docker run --read-only -v /tmp --tmpfs /tmp myapp
+````
 
 
 
