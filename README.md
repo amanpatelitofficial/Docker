@@ -188,6 +188,13 @@ e) Lock down file system to prevent file tampering during runtime.
 docker run --read-only -v /tmp --tmpfs /tmp myapp
 ````
 
+f) Volume which is not in use in docker is know as dangling volume
+
+````bash
+docker volume ls -f dangling=true
+
+````
+
 
 
 
